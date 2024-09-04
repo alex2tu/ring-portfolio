@@ -1,0 +1,53 @@
+.about {
+    display: grid;
+    align-items: center;
+    gap: 3vh;
+    width: 38vw;
+    font-size: calc(70vw / 37);
+}
+
+.centered {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-line {
+    color: white;
+    font: helvetica, sans-serif;
+}
+
+.indoxi-link {
+    color: gray;
+    background-color: none;
+    text-decoration: none;
+    transition: color 0.6s ease-in-out, background-color 0.75s ease-in-out;
+}
+
+.indoxi-link:hover {
+    color: black;
+    background-color: white;
+    transition: color 0.75s ease-in-out, background-color 0.75s ease-in-out;
+}
+
+.pw-link {
+    color: gray;
+    text-decoration: none;
+    transition: color 0.6s ease-in-out;
+}
+
+.pw-link:hover {
+    color: white;
+    transition: color 0.75s ease-in-out;
+}
+
+.mail-link {
+    color:gray;
+    transition: color 0.6s ease-in-out;
+}
+
+.mail-link:hover {
+    color: rgb(70,70,70);
+    transition: color 0.75s ease-in-out;
+}
