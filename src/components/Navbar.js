@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { NavLink, isActive } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css'
 
 function Navbar() {
@@ -29,4 +29,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
