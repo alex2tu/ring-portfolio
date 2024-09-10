@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ring-portfolio/static/css/main.489c5d75.css",
-    "main.js": "/ring-portfolio/static/js/main.9ff09b0e.js",
+    "main.js": "/ring-portfolio/static/js/main.cf84e284.js",
     "static/js/453.fab6c626.chunk.js": "/ring-portfolio/static/js/453.fab6c626.chunk.js",
     "index.html": "/ring-portfolio/index.html",
     "main.489c5d75.css.map": "/ring-portfolio/static/css/main.489c5d75.css.map",
-    "main.9ff09b0e.js.map": "/ring-portfolio/static/js/main.9ff09b0e.js.map",
+    "main.cf84e284.js.map": "/ring-portfolio/static/js/main.cf84e284.js.map",
     "453.fab6c626.chunk.js.map": "/ring-portfolio/static/js/453.fab6c626.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.489c5d75.css",
-    "static/js/main.9ff09b0e.js"
+    "static/js/main.cf84e284.js"
   ]
 }
