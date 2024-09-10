@@ -10,8 +10,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact Component={Rings}/>
-        <Route path='/about' exact Component={About}/>
+        <Route path='/ring-portfolio/' exact Component={Rings}/>
+        <Route path='/ring-portfolio/about' exact Component={About}/>
       </Routes>
     </Router>
     </>
