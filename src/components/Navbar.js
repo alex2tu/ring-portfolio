@@ -9,14 +9,14 @@ function Navbar() {
             <ul className="nav-menu">
             
                 <li className="nav-item">
-                    <NavLink to='/ring-portfolio'end className={({isActive}) =>
+                    <NavLink to='/' className={({isActive}) =>
                         "nav-link" + (!isActive ? "" : " on")
                     }>
                         Rings
                     </NavLink>
                 </li>
                 <li className="nav-item">
-                <NavLink to='/ring-portfolio/about' className={({isActive}) =>
+                <NavLink to='/about' className={({isActive}) =>
                         "nav-link" + (!isActive ? "" : " on")
                     }>
                         About

@@ -7,11 +7,11 @@ import About from './components/pages/About';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename='/ring-portfolio'>
       <Navbar />
       <Routes>
-        <Route path='/ring-portfolio/' exact Component={Rings}/>
-        <Route path='/ring-portfolio/about' exact Component={About}/>
+        <Route path='/' exact Component={Rings}/>
+        <Route path='/about' exact Component={About}/>
       </Routes>
     </Router>
     </>
