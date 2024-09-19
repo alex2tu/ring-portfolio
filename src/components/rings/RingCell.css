@@ -1,14 +1,14 @@
 .ring-cell {
     position: relative;
     width: 100%;
-    height: 250px;
+    height: 275px;
     overflow: hidden;
     border-radius: 8px;
 }
 
 .ring-cell img {
     width: 100%;
-    height: 250px;
+    height: 275px;
     object-fit: cover;
     object-position: center 50%;
     transition: filter 0.3s ease;
