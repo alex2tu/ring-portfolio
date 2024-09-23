@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./About.css";
 
 function About() {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        setIsVisible(true);
+    }, []);
+
     return (
-        <div className="about centered">
+        <div className="about-container">
+        <div className={`about ${isVisible ? 'visible' : ''}`}>
             <div className="about-story">
             <span className="about-line" id="1">Hi, I'm Alex, a jewelry maker who also studies Computer Science at Purdue. </span>
             <span className="about-line" id="2">I do most of my jeweler-ing in Connecticut though, working as an apprentice for a store named <a className="indoxi-link" href="https://www.indoxijewelry.com/">indoxi</a>. </span>
@@ -12,6 +20,7 @@ function About() {
             <div className="about-contact">
                 <span className="about-line" id="4">Feel free to check out my <a className="pw-link" href="https://alextu.co">personal website</a>, or contact me at <a className="mail-link" href="mailto:tu96@purdue.edu">tu96@purdue.edu</a></span>
             </div>
+        </div>
         </div>
     );
 }

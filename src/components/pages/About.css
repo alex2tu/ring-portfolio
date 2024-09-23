@@ -4,13 +4,22 @@
     gap: 3vh;
     width: 38vw;
     font-size: calc(70vw / 37);
+
+    /* centered property and animation */
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, 100%);
+    opacity: 0;
+    transition: transform 0.6s ease-out, opacity 0.5s ease-out;
 }
 
-.centered {
+.about.visible {
     left: 50%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
+    opacity: 1;
 }
 
 .about-line {
