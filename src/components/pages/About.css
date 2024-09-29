@@ -2,7 +2,7 @@
     display: grid;
     align-items: center;
     gap: 3vh;
-    width: 45vw;
+    width: 50vw;
     font-size: 17px;
 
     /* centered property and animation */
@@ -29,7 +29,7 @@
 
 @media (min-width: 768px) {
     .about {
-        width: 50vw;
+        width: 44vw;
         font-size: 22px;
     }
 }
