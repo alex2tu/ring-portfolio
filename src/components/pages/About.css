@@ -2,8 +2,8 @@
     display: grid;
     align-items: center;
     gap: 3vh;
-    width: 38vw;
-    font-size: calc(70vw / 37);
+    width: 45vw;
+    font-size: 17px;
 
     /* centered property and animation */
     left: 50%;
@@ -25,6 +25,20 @@
 .about-line {
     color: white;
     font: helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+    .about {
+        width: 50vw;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about {
+        width: 38vw;
+        font-size: 25px;
+    }
 }
 
 .indoxi-link {
