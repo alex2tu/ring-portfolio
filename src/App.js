@@ -7,7 +7,7 @@ import About from './components/pages/About';
 function App() {
   return (
     <>
-    <Router basename='/ring-portfolio'>
+    <Router>
       <Navbar />
       <Routes>
         <Route path='/' exact Component={Rings}/>
