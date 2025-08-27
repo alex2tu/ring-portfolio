@@ -34,6 +34,12 @@ const rings = [
       name: 'stacking ring',
       image: `${process.env.PUBLIC_URL}/images/stacking_ring_silver.jpeg`,
       description: 'silver stacking ring'
+    },
+    {
+      id: 7,
+      name: 'engraved ring',
+      image: `${process.env.PUBLIC_URL}/images/engraved_ring_silver.jpeg`,
+      description: 'silver engraved ring'
     }
   ];
   
